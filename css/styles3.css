@@ -1,0 +1,73 @@
+div#section3row1.row{
+  margin:10px;
+}
+
+div#section3row2.row{
+  margin:10px;
+	padding: 20px;
+}
+
+div#section3row3.row{
+  background:rgb(30,94,190);
+}
+
+#demoo1{
+  text-align:center;
+  background-image:url(../../assets/img/editing_keyboard-wallpaper-1920x1080.jpg);
+  background-size:cover;
+  background-position:center;
+}
+
+div#jumbo1{
+  padding:10px;
+}
+
+#sccol11{
+  color:white;
+}
+
+#sccol12{
+  color:white;
+}
+
+
+#ftr {
+	padding: 20px;
+}
+
+
+
+#last {
+	height: auto;
+	background-color: black;
+}
+
+#mainftr {
+color: aliceblue;	
+}
+
+#margin {
+	padding: 20px;
+}
+
+.footerrr {
+	margin: 0px;
+	height: 300px;
+	background-color: black;
+}
+
+#row244 {
+	height: auto;
+	background-color: #504f60;
+}
+
+.download {
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-bottom: 15px;
+}
+
+#andro {
+	padding-right: 15px;
+	padding-left: 40px;
+}

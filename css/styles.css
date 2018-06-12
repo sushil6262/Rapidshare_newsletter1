@@ -1,0 +1,153 @@
+
+
+#box1,
+#box11 {
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+img#logo{
+	width: 200px;
+}
+
+div#heading {
+	padding-top: 15px;
+}
+
+h1#rapid {
+	font-size: 6em;
+}
+
+h1#rapid strong {
+	color: rgb(50, 143, 230);
+}
+
+@media (max-width:400px) {
+	h1#rapid {
+		display: inline-block;
+		font-size: 40px;
+	}
+}
+
+@media (max-width:400px) {
+	h4#mca {
+		display: inline-block;
+		font-size: 15px;
+	}
+}
+
+@media (max-width:750px) {
+	h1#rapid {
+		font-size: 3em;
+	}
+}
+
+@media (max-width:200px) {
+	h1#rapid {
+		font-size: 2em;
+	}
+}
+
+div#row1 {
+	height: auto;
+	background: #ff00cc;
+	/* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #333399, #ff00cc);
+	/* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #333399, #ff00cc);
+	/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	background-size: 400% 400%;
+	animation: bgrt 10s ease infinite;
+}
+
+@keyframes bgrt {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+
+div#row2 {
+	height: auto;
+	background-color:cornflowerblue ;
+}
+
+div#row3 {
+	height: auto;
+	background: #232526;
+	/* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #414345, #232526);
+	/* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #414345, #232526);
+	/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+h1,
+p {
+	color: white;
+}
+
+.padding1 {
+	margin-top: 15px;
+	padding: 20px;
+}
+
+@media (min-width:500px) {
+	.padding1 p {
+		font-size: 0.8em;
+	}
+}
+
+.padding2 {
+	margin-top: 15px;
+	padding: 20px;
+}
+
+p#para1 {
+	padding-top: 5px;
+	padding-right: 15px;
+}
+
+div#sec4col1.col-md-6 {
+	padding: 20px;
+}
+
+#sec4img1 {
+	padding: 10px;
+	width: 200px;
+}
+
+@media (max-width:500px) {
+	#sec4img1 {
+		padding: 10px;
+		width: 150px;
+	}
+}
+
+#sec4frstimgtext {
+	padding: 0px;
+}
+
+div#sec4col1.col-md-6 {
+	border-left: 5px solid white;
+}
+
+div#sec4col1img {
+	margin-bottom: 10px;
+	float: left;
+}
+#logo1 {
+	width: 40%;
+}
+
+#sec2 {
+	margin: 0px;
+}
+
+

@@ -1,0 +1,81 @@
+#drow1 {
+	height: auto;
+	background: #9d9d9d;
+	background: radial-gradient(circle farthest-side at center center, #9d9d9d 0%, #dbdbdb 80%);
+	background: -webkit-radial-gradient(circle farthest-side at center center, #9d9d9d 0%, #dbdbdb 80%);
+	background: -moz-radial-gradient(circle farthest-side at center center, #9d9d9d 0%, #dbdbdb 80%);
+	background-size: 400% 400%;
+	animation: bgrt 10s ease infinite;
+
+}
+
+@keyframes bgrt {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+div#dbox1 {
+	padding: 15px;
+}
+
+
+div#demo1 {
+	margin: 20px;
+	text-align: center;
+	margin-top: 20px;
+	background-image: url(../img/hh.jpg);
+	background-size:cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	
+	color: white;
+}
+
+#drow2 {
+	height: auto;
+	background: #c94b4b;
+	/* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #4b134f, #c94b4b);
+	/* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #4b134f, #c94b4b);
+	/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	background-size: 400% 400%;
+	animation: bgrt 10s ease infinite;
+}
+
+p#parademo1 {
+	margin: 20px;
+	color: white;
+}
+#row71 {
+	height: auto;
+	background: #232526;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #414345, #232526);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #414345, #232526); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+#row8 {
+	height: auto;
+	background-color: darkslateblue;
+}
+
+#row7 {
+	height: auto;
+	background-color: coral;
+}
+
+#row21 {
+	height: auto;
+	background-color:cornflowerblue ;
+}
+
+#mainftr {
+	
+}
